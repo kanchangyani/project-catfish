@@ -18,3 +18,17 @@ unemployment_claims_df = fred.get_series('CCSA')
 # Average work weeks in manufacturing
 manufacturing_work_weeks_df = fred.get_series('AWHMAN')
 manufacturing_work_weeks_df = manufacturing_work_weeks_df.dropna()
+
+#Edit's by Kanchan Start
+
+#COININCIDENT INDICATOR
+#Number of Hours Worked
+avg_annual_hours_df = fred.get_series('AVHWPEUSA065NRUG')
+
+#Employment Level
+employment_level_df = fred.get_series('CE16OV')
+
+#GDP
+GDP_df = fred.get_series('GDP')
+
+#Edit's by Kanchan End
